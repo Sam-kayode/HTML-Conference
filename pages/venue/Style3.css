@@ -136,6 +136,10 @@ a,p{
 #map{
     text-align:center;
 }
+iframe{
+    width:80vw;
+    height:70vh;
+}
 
 /*-------------------------footer---------------------------*/
 footer {
