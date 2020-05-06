@@ -76,7 +76,6 @@ a{
     }
     #menu{
         text-align:center;
-        display:none;
         border-top:1px solid grey;
         margin:0;
         left: -100vw;
