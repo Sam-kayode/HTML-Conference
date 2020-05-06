@@ -79,7 +79,12 @@ a{
         display:none;
         border-top:1px solid grey;
         margin:0;
-        
+        left: -100vw;
+        display: block;
+        position: fixed;
+        width: 100%;
+        transition: 0.5s;
+        background-color: black;
        
     }
     #menu a{
@@ -90,7 +95,7 @@ a{
     line-height:30px;
     }
     #toggle:checked + #menu{
-        display:block;
+        left:0;
 
     }
 
