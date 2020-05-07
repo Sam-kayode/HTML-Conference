@@ -6,101 +6,98 @@
 #navbar {
     text-align: right;
     line-height: 60px;
-    background-color: #111415;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
+    background-color:#111415;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
 }
-
 header {
     margin-bottom: 60px;
 }
 
-a {
-    text-decoration: none;
-}
+a{
+    text-decoration:none;
 
-#logo {
-    position: absolute;
-    display: inline;
-    left: 40px;
-    line-height: 60px;
 }
-
-    #logo p {
-        display: inline;
-        line-height: 60px;
-        color: darkgrey;
-    }
+#logo{
+   position:absolute;
+   display:inline;
+   left:40px;
+   line-height:60px;
+}
+#logo p{
+    display:inline;
+    line-height:60px;
+    color:darkgrey;
+}
 
 #toggle {
     display: none;
     line-height: 60px;
 }
-
-#navbar label {
-    padding-right: 20px;
-    line-height: 60px;
-    font-size: 25px;
-    font-weight: bold;
-    display: none;
+#navbar label{
+    padding-right:20px;
+    line-height:60px;
+    font-size:25px;
+    font-weight:bold;
+    display:none;
 }
-
-#menu {
-    margin-right: 30px;
+#menu{
+    margin-right:30px;
 }
-
-    #menu a {
-        padding: 10px 15px;
-        line-height: 60px;
-        font-family: sans-serif;
-        color: floralwhite;
-        border-radius: 20px;
-    }
-
-        #menu a:hover {
-            background-color: dimgrey;
-        }
-
-#logo img {
-    height: 30px;
-    width: 75px;
-    font-weight: bold;
-    line-height: 60px;
+#menu a{
+    padding:10px 15px;
+    line-height:60px;
+    font-family:sans-serif;
+    color:floralwhite;
+    border-radius:20px;
 }
-
+#menu a:hover{
+    background-color:dimgrey;
+}
+#logo img{
+   height:30px;
+   width:75px;
+    font-weight:bold;
+    line-height:60px;
+}
 #logo p {
     font-family: 'Akronim';
     font-size: 28px;
     line-height: 60px;
 }
-
-@media(max-width:680px) {
+@media(max-width:680px){
     #navbar label {
+        display:block;
+        color:white;
+        cursor:pointer;
+        
+    }
+    #menu{
+        text-align:center;
+        border-top:1px solid grey;
+        margin:0;
+        left: 100vw;
         display: block;
-        color: white;
-        cursor: pointer;
+        position: fixed;
+        width: 100%;
+        transition: 0.5s;
+        background-color: black;
+       
+    }
+    #menu a{
+    display:block; 
+    border-color:grey;
+    border-bottom:1px solid grey;
+    border-radius:0px;
+    line-height:30px;
+    }
+    #toggle:checked + #menu{
+        left:0;
+
     }
 
-    #menu {
-        text-align: center;
-        display: none;
-        border-top: 1px solid grey;
-        margin: 0;
-    }
-
-        #menu a {
-            display: block;
-            border-color: grey;
-            border-bottom: 1px solid grey;
-            border-radius: 0px;
-            line-height: 30px;
-        }
-
-    #toggle:checked + #menu {
-        display: block;
-    }
 }
 /*--------------------------SECTION-1------------------------*/
 #section-1 {
