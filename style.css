@@ -78,7 +78,7 @@ a{
         text-align:center;
         border-top:1px solid grey;
         margin:0;
-        left: -100vw;
+        left: 100vw;
         display: block;
         position: fixed;
         width: 100%;
